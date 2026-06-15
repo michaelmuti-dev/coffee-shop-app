@@ -1,0 +1,30 @@
+/* Ensure the footer always sticks to the bottom of the page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Base styles for dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Update navigation and footer colors in dark mode */
+body.dark-mode .navbar, 
+body.dark-mode footer {
+    background-color: #1f1f1f !important;
+    border-color: #333 !important;
+}
+
+body.dark-mode .navbar-brand, 
+body.dark-mode .nav-link {
+    color: #ffffff !important;
+}
+
+body.dark-mode .btn-outline-dark {
+    color: #ffffff;
+    border-color: #ffffff;
+}
