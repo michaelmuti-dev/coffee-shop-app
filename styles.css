@@ -28,3 +28,6 @@ body.dark-mode .btn-outline-dark {
     color: #ffffff;
     border-color: #ffffff;
 }
+h1, h2, h3, .navbar-brand {
+    color: #4a3319; /* Warm espresso brown */
+}
