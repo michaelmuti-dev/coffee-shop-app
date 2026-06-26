@@ -28,11 +28,14 @@ body.dark-mode .btn-outline-dark {
     color: #ffffff;
     border-color: #ffffff;
 }
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+    color: #f1ebd9 !important;
+}
 h1, h2, h3, .navbar-brand {
     color: #4a3319; /* Warm espresso brown */
 }
 .nav-link:hover {
-    color: #c49a6c !important; /* Soft gold accent */
+    color: #c49a6c !important; 
     text-decoration: underline;
 }
 .card {
@@ -42,7 +45,7 @@ h1, h2, h3, .navbar-brand {
     transform: translateY(-5px);
 }
 body {
-    background-color: #fcfbf9; /* Warm linen tone */
+    background-color: #fcfbf9; 
 }
 textarea.form-control {
     resize: none;
