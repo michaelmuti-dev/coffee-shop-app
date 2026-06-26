@@ -41,3 +41,6 @@ h1, h2, h3, .navbar-brand {
 .card:hover {
     transform: translateY(-5px);
 }
+body {
+    background-color: #fcfbf9; /* Warm linen tone */
+}
