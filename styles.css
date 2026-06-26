@@ -31,3 +31,7 @@ body.dark-mode .btn-outline-dark {
 h1, h2, h3, .navbar-brand {
     color: #4a3319; /* Warm espresso brown */
 }
+.nav-link:hover {
+    color: #c49a6c !important; /* Soft gold accent */
+    text-decoration: underline;
+}
