@@ -35,3 +35,9 @@ h1, h2, h3, .navbar-brand {
     color: #c49a6c !important; /* Soft gold accent */
     text-decoration: underline;
 }
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
