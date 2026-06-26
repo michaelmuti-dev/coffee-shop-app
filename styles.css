@@ -44,3 +44,7 @@ h1, h2, h3, .navbar-brand {
 body {
     background-color: #fcfbf9; /* Warm linen tone */
 }
+textarea.form-control {
+    resize: none;
+    border-radius: 6px;
+}
